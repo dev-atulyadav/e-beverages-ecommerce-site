@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Images/coffee cup-cuate.png"
+      type="image/x-icon"
+    />
+    <title>E-Beverages - Offical beverages services</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="brand">
+          <div class="icon"></div>
+          <h1>E-Beverages</h1>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-house"></i></li>
+          <li>|</li>
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
+          <li>|</li>
+          <li><i class="fa-solid fa-user"></i></li>
+        </ul>
+      </nav>
+      <div>
+        <form action="">
+          <input type="search" placeholder="Search" />
+          <input type="submit" value="Search" />
+        </form>
+        <span>
+          <button>Login</button>
+          <button>Sign Up</button>
+        </span>
+      </div>
+    </header>
+    <section class="box welcome-part box-1">
+      <article>
+        <main class="slider">
+          <div class="intro-img">
+            <h1>Welcome at E-Beverages</h1>
+            <p>
+              Official <strong>e-beverage</strong> services, order
+              <strong>premium quality beverages</strong> at affordable prices...
+            </p>
+          </div>
+        </main>
+        <main class="slider">
+          <div class="intro-img">
+            <h1>Get your drink</h1>
+            <p>
+              <strong>India's</strong> first and only online beverages
+              services...
+            </p>
+          </div>
+        </main>
+        <main class="slider">
+          <div class="intro-img">
+            <h1>Quick Delivery</h1>
+            <p>Fast delivery services all over <strong>India</strong></p>
+          </div>
+        </main>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </article>
+      <div class="alert">
+        <p>Please Login/Sign Up to access...</p>
+      </div>
+    </section>
+    <section class="box box-2">
+      <!-- Sign Up Form -->
+      <article class="form-part" style="display: none">
+        <i class="fa-solid fa-xmark"></i>
+        <form action="" autocomplete="off">
+          <div>
+            <label for="user-name">Username</label>
+            <input
+              type="text"
+              id="user-name"
+              name="username"
+              placeholder="enter Name"
+              required
+            />
+          </div>
+          <div>
+            <span>
+              <label for="user-email">Email</label>
+              <input
+                type="email"
+                id="user-email"
+                name="useremail"
+                placeholder="e.g abc@test.com"
+                required
+              />
+              <!-- <p class="validate">*please enter a vaild email!</p> -->
+            </span>
+            <span>
+              <label for="user-password">Password</label>
+              <input
+                type="password"
+                id="user-password"
+                name="userpassword"
+                placeholder="at least 8 character"
+                required
+              />
+            </span>
+          </div>
+          <div>
+            <label for="user-address">Address</label>
+            <input
+              type="text"
+              id="user-address"
+              name="useraddress"
+              placeholder="e.g house no.123..."
+              required
+            />
+          </div>
+          <div class="input-group">
+            <span>
+              <label for="user-state">State</label>
+              <input
+                type="text"
+                id="user-state"
+                placeholder="enter state"
+                list="state"
+                name="state"
+                required
+              />
+              <datalist id="state">
+                <!-- <option value=""></option> -->
+              </datalist>
+            </span>
+            <span
+              ><label for="zip">Zip</label>
+              <input type="text" id="zip" name="zip" placeholder="e.g 123456" />
+            </span>
+          </div>
+          <div class="terms-checkbox">
+            <input type="checkbox" id="check-box" required />
+            <label for="check-box">
+              By clicking Sign Up, you agree to our <a href="">Terms</a> ,
+              <a href="">Privacy Policy</a> and <a href="">Cookies Policy</a>.
+            </label>
+          </div>
+          <div>
+            <input type="submit" value="Sign Up" class="btn reg-btn" />
+            <span>Already a user?</span>
+          </div>
+        </form>
+      </article>
+      <!-- Login Form -->
+      <article class="form-part" style="display: none">
+        <i class="fa-solid fa-xmark"></i>
+        <h3>Login Now</h3>
+        <form action="" autocomplete="off">
+          <div>
+            <label for="user-email">Email</label>
+            <input
+              type="email"
+              id="user-email"
+              placeholder="e.g abc@test.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="user-password">Password</label>
+            <input
+              type="password"
+              id="user-password"
+              placeholder="at least 8 character"
+              required
+            />
+          </div>
+          <div>
+            <input type="submit" value="Login" class="btn login-btn" />
+            <span>Not a user? Create account</span>
+          </div>
+        </form>
+      </article>
+    </section>
+    <!-- Tea section -->
+    <section class="box product" id="home">
+      <h2>Top Most Selling Traditional Tea</h2>
+      <article class="card-section">
+          <div class="cards">
+              <img src="./Images/tea images/masala chai.webp" class="product_img">
+              <div>
+                  <h3>Masala Chai</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹399.00/only</h1>
+                  <p>Masala chai is the most popular tea that holds a very special place in the heart of every Indian.
+                      The
+                      aromatic flavour of the tea is enhanced with the punchy essence of numerous desi spices like
+                      ginger,
+                      cardamom, and cinnamon among others. Cold winter mornings or monsoon evenings, a cup of this
+                      chai is
+                      unbeatable at all times.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/tea images/Noon-Chai.jpg" class="product_img">
+              <div>
+                  <h3>Noon Chai</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹649.00/only</h1>
+                  <p> A beautiful pink-coloured salted tea, another traditional jewel from Kashmir, the land of
+                      extraordinary
+                      beauty. This one’s also called shir or gulabi chai because of its pretty pink hue that it gets
+                      from a pinch
+                      of baking soda used while brewing it. Its preparation is very unique as compared to others. This
+                      tea can
+                      soothe your senses with its aroma and velvety flavour.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/tea images/ronga saah.jpg" class="product_img">
+              <div>
+                  <h3>Ronga Saah</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹299.00/only</h1>
+                  <p>Assam being the largest producer of tea in India with its beautiful tea gardens has a special
+                      flavour to
+                      offer. Also known as lal cha, ronga saah is a red-coloured tea common in Assamese households. It
+                      is prepared
+                      sans spices and milk and is the simplest one to make. You just need the right tea leaves for it
+                      to enjoy the
+                      eye-treating red shade.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/tea images/Kahwa.jpg" class="product_img">
+              <div>
+                  <h3>Kahwa</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹274.00/only</h1>
+                  <p>Like many other admirable things about ‘heaven on Earth’ Kashmir, this tea is something Kashmiris
+                      love to
+                      sip on, almost throughout the year, but more during the super chilly winter months. The
+                      traditional way to
+                      prepare it is in a special brass kettle known as samovar with the special Kashmiri green tea
+                      leaves, exotic
+                      spices, nuts and the ‘red gold,’ kesar or saffron threads.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/tea images/irani chai.webp" class="product_img">
+              <div>
+                  <h3>Irani Chai</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹390.00/only</h1>
+                  <p>There is a very interesting story behind the famed Irani Chai. It is said that the Persians came
+                      to Mumbai
+                      in search of a better life, then migrated to Pune and landed in Hyderabad bringing the delish
+                      Irani chai
+                      with them. Unlike the traditional way of preparing tea, you have to boil the tea leaves and the
+                      milk in
+                      separate containers. to make this one.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/tea images/butter chai.jpg" class="product_img">
+              <div>
+                  <h3>Butter Chai</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹350.00/only</h1>
+                  <p>A popular tea variety that comes from the Himalayan region, also known as po cha in Tibet or gur
+                      gur chai
+                      in Ladakh. This tea is prepared with black tea leaves as the base and the addition of yak
+                      butter, salt, some
+                      milk, and water. Making it is a little complex, but the flavour is very special too. It acts as
+                      an energy
+                      booster.</p>
+              </div>
+          </div>
+
+      </article>
+  </section>
+  <!-- Coffee section -->
+  <section class="box product">
+      <h2>Best Premium Coffees</h2>
+      <article class="card-section">
+          <div class="cards">
+              <img src="./Images/coffee images/Black-Coffee-2-1.jpg" class="product_img">
+              <div>
+                  <h3>Black Coffee</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹410.00/only</h1>
+                  <p>Black coffee is a beverage made from roasted coffee beans. The beans are ground and soaked in
+                      water, which
+                      releases their flavor, color, caffeine content, and nutrients. Although coffee is often served
+                      hot, it can
+                      also be served iced.In many countries, including the United States, coffee is typically enjoyed
+                      with
+                      breakfast. It’s favored in the mornings.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/coffee images/latte.jpg" class="product_img">
+              <div>
+                  <h3>Latte</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹500.00/only</h1>
+                  <p> A latte or caffè latte is a milk coffee that boasts a silky layer of foam as a real highlight to
+                      the
+                      drink. A true latte will be made up of one or two shots of espresso, steamed milk and a final,
+                      thin layer of
+                      frothed milk on top. These elements combined result in a balanced milky coffee that possesses an
+                      aesthetically pleasing look and a smooth texture.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/coffee images/Cappuccino.jpg" class="product_img">
+              <div>
+                  <h3>Cappuccino</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹549.00/only</h1>
+                  <p>A cappuccino is the perfect balance of espresso, steamed milk and foam. This coffee is all about
+                      the
+                      structure and the even splitting of all elements into equal thirds. An expertly made cappuccino
+                      should be
+                      rich, but not acidic and have a mildly sweet flavouring from the milk. And, because the milk is
+                      not actually
+                      mixed in it gives the espresso a stronger flavour.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/coffee images/CaffeAmericano.jpg" class="product_img">
+              <div>
+                  <h3>Americano</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹1,099.00/only</h1>
+                  <p>An americano is quite simply just hot water and espresso. It’ll either be served 1/2 and 1/2 or
+                      1/3
+                      espresso to 2/3 water, depending on the coffee shop in question or how you’ve chosen to brew it.
+                      There is
+                      dispute about whether the espresso or the water should be added first, but in the case of the
+                      americano,
+                      espresso should always be added first.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/coffee images/espresso.jpg" class="product_img">
+              <div>
+                  <h3>Espresso</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹900.00/only</h1>
+                  <p>espresso, (Italian: “fast, express”) a strong brew of coffee produced by forcing boiled water
+                      under
+                      pressure through finely ground coffee. The finely ground coffee beans means an increased amount
+                      of surface
+                      contact with the water, resulting in a highly flavoured and aromatic brew. The nuances of
+                      brewing and
+                      enjoying the drink have spurred.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/coffee images/A-Galao.webp" class="product_img">
+              <div>
+                  <h3>Galão</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹1,776.32/only</h1>
+                  <p>The galao comes from Portugal, where it’s a popular cafe drink served at breakfast time. A galao
+                      comprises
+                      one part espresso and three parts frothed milk, making it very similar to a latte.
+                      You’ll find that Portuguese people often serve coffee with plenty of sugar or milk. This is due
+                      to the
+                      tradition of using a blend with a high proportion of Robusta beans.</p>
+              </div>
+          </div>
+      </article>
+  </section>
+  <!-- Snack section -->
+  <section class="box product">
+      <h2>Best Selling Snacks</h2>
+      <article class="card-section">
+          <div class="cards">
+              <img src="./Images/snack images/melody.avif" class="product_img"></>
+              <div>
+                  <h3>Melody</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹100.00/only</h1>
+                  <p>Parle Melody Chocolaty Toffee is a caramel toffee with a thick chocolate filling inside. Enjoy
+                      this twin irresistible flavour of chocolate and caramel blended to perfection in each bite of
+                      this delightful toffee. These rich candies are conveniently packed in 391gm poly pack to retain
+                      its flavour and freshness. Celebrate with friends and family.
+                  </p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/snack images/parle g.webp" class="product_img">
+              <div>
+                  <h3>Parle G</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹110.00/only</h1>
+                  <p>Parle Products was established as a confectionery maker in the Vile Parle suburb of Mumbai, in
+                      1929. Parle Products began manufacturing biscuits in 1939. In 1947, when India became
+                      independent, the company launched an ad campaign, showcasing its Gluco brand of biscuits as an
+                      Indian alternative to British-branded biscuits.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/snack images/good day.webp" class="product_img">
+              <div>
+                  <h3>Good Day</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹25.00/only</h1>
+                  <p>India’s original cookie, Britannia Good Day has been a popular favourite since 1986. These
+                      crunchy, buttery cookies are abundantly loaded with delectable ingredients - from cashews,
+                      almonds and pistachios to chocolatey delights. Make every day special with the wholesome
+                      Britannia Good Day cookies! Oozing with butter in every delicious crunch.
+                  </p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/snack images/britannia-tiger-krunch-biscuits.webp" class="product_img">
+              <div>
+                  <h3>Tiger Krunch</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹70.00/only</h1>
+                  <p>Britannia Tiger biscuits - making snack time nutritious and delicious since 1997. Crunchy in
+                      every bite, these delicious biscuits are tasty and healthy. Now, every child is a tiger with
+                      Britannia Tiger. Krunchy chocolate cookies sprinkled with melt-in-mouth chocochips, Tiger Krunch
+                      Chocochip is everyone’s favourite chocochip cookie.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/snack images/mathi.webp" class="product_img">
+              <div>
+                  <h3>Plain Mathi</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹224.00/only</h1>
+                  <p>Mathri (Rajasthani: मठरी, Hindi: मठी, Mathi) is a Rajasthani snack. It is a kind of flaky biscuit
+                      from north-west region of India. Once a local delicacy, mathi or mathri as its often called, is
+                      now available in almost all sweet shops in India. Similar to Namak para, it is made from flour,
+                      water, and, optionally, carom seeds. The finished products.</p>
+              </div>
+          </div>
+          <div class="cards">
+              <img src="./Images/snack images/namkeen.jpg" class="product_img">
+              <div>
+                  <h3>Haldiram Namkeen</h3>
+                  <div>
+                      <button class="cart_btn">Add to cart</button>
+                      <button class="order_btn">Order Now</button>
+                  </div>
+                  <h1>₹185.00/only</h1>
+                  <p>Haldiram's has over 410 products. Its product range includes traditional namkeens, western
+                      snacks, Indian traditional and contemporary Sweets, cookies, sherbets, and pickles. Products
+                      such as gulab jammun and Bikaneri bhujia and papadum are popular. The company also produces
+                      ready-to-eat food products. In the 1990s. </p>
+              </div>
+          </div>
+      </article>
+  </section>
+    <footer>
+      <article>
+        <div class="social-links">
+          <h3>Get connected with us <i class="fa-solid fa-link"></i></h3>
+          <ul>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+        <ul class="extra-links">
+          <li>
+            <a href=""
+              >About us <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href=""
+              >Terms & Conditons
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href=""
+              >Help <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href=""
+              >Extra Links
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="copyright">
+          Copyright
+          <i class="fa-regular fa-copyright" style="font-size: 0.8rem"></i>
+          2023-24 | <small>All rights reserved</small>
+        </div>
+      </article>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/ea3c3184e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
