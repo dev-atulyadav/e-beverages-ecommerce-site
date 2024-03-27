@@ -9,7 +9,9 @@
 :root {
   font-size: 15px;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-image: linear-gradient(to top, #495057, white, #495057);
   font-family: "Lato", sans-serif;
